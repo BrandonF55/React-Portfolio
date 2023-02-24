@@ -1,12 +1,13 @@
 import React from "react";
 import styles from './Header.module.scss'
+import Navigation from '../Navigation'
 
 
 function Header(){
   return (
-    <div className={styles.Header}>
-    
-    </div>
+    <header className={styles.Header}>
+      <Navigation/>
+    </header>
   );
 } 
 export default Header;

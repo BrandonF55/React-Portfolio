@@ -60,3 +60,7 @@ ive hit a massive issue with my routes. its the reason i cant load my local host
 1pm - 2pm 
 
 Ive fixed my Route problem. Small victory for today. So now im working on adding more components for my project. Trying to get a shell for today. 
+
+2pm - 3pm 
+
+Ive fixed all my issues with my portfolio and now everything is working.  I just Finished the NavBar right before 3pm. Its nice using some of the cool NavLink from react-router-dom library. making progress.

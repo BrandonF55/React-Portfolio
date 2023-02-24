@@ -7,8 +7,10 @@ function Footer() {
     <footer className={styles.Footer}>
       <h3>
         Find All My Projects Here:
-        <a href='https://github.com/BrandonF55' />
-        <img className='GitHub' src={GitHubLOGO} alt='black github logo' />
+        <a href='https://github.com/BrandonF55'>
+          <img className='GitHub' src={GitHubLOGO} alt='github logo' />
+        </a>
+
       </h3>
     </footer>
   );
