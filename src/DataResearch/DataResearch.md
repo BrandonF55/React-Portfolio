@@ -44,3 +44,11 @@ from 8am - 9am
 
 Changed language to React for the portfolio project. Looking up how portfolio can be done in React. Just Started a new Repo. It will contain my DataResearch folder with all updated research for the React portfolio.
 
+from 9am - 10pm 
+
+I was Structuring my project with my components to see what ill need for my portfolio. Was looking on GitHub repos for some examples of React portfolio. I think i found how i should have my components layed out. Im in the process of added a Footer and Linking everything to the app. I might of bit off more then i can chew with switching. 
+
+10am - 11pm 
+
+Im running into this issue that my local host wont run? im trying to figure it out but it keeps says its none responsive and ask me to exit it. im Still trying to fix the issue.
+
