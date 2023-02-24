@@ -4,13 +4,13 @@ import GitHubLOGO from '../../assets/GitHub_LOGO.png';
 
 function Footer() {
   return (
-    <Footer className={styles.Footer}>
+    <footer className={styles.Footer}>
       <h3>
         Find All My Projects Here:
         <a href='https://github.com/BrandonF55' />
-        <img className='GitHub' src={GitHubLOGO} alt='' />
+        <img className='GitHub' src={GitHubLOGO} alt='black github logo' />
       </h3>
-    </Footer>
+    </footer>
   );
 }
 
