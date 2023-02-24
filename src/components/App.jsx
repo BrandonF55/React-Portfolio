@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import React from 'react';
 import Layout from './Page/Layout';
@@ -6,20 +6,22 @@ import Layout from './Page/Layout';
 
 function App() {
   return (
-    <>
-      <Router>
+    <React.Fragment>
+      <Layout/>
+
+      {/* <Router>
        
-        <Routes>
+        <Routes> */}
 
-          <Route index path="/" element={<Layout />}>
-            {/* <Route index path='/' element={<HomePage/>}/> */}
-
+          {/* <Route index path="/" element={<Layout />}> */}
+            {/* <Route index path='/' element={<HomePage/>}/> */} 
+{/* 
           </Route>
        
         </Routes>
      
-      </Router>
-    </>
+      </Router> */}
+    </React.Fragment>
   );
 }
 
