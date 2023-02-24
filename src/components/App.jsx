@@ -12,7 +12,7 @@ function App() {
        
         <Routes> 
 
-          <Route index element={<Layout />}> 
+          <Route element={<Layout />}> 
             <Route index path='/' element={<HomePage/>}/>  
 
           </Route>

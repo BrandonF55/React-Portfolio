@@ -57,3 +57,6 @@ Im running into this issue that my local host wont run? im trying to figure it o
 ive hit a massive issue with my routes. its the reason i cant load my local host for some Reason. It was stop my progress because i cant access my local host to see my webpage. been stuck on this bug for over a hour and its still WIP as i go to lunch.
 
 
+1pm - 2pm 
+
+Ive fixed my Route problem. Small victory for today. So now im working on adding more components for my project. Trying to get a shell for today. 
