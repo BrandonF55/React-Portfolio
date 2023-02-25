@@ -1,40 +1,34 @@
-import styles from 'ContactPage.module.scss';
+import styles from './ContactPage.module.scss';
 import React from 'react';
-import LinkedIn_LoGo from '../../assets/linkedin.png';
+import LinkedIn_LoGo from '../../assets/LinkedIn_LoGo.png';
 
-function ContactPage(){
+function ContactPage() {
   return (
-    <div>
-      <dir>
-      <div className={styles.ContactContainer}>
-        <h1>
-          <h1>
-            <span className={styles.typing}>Come Say Hi,</span>
+    <div className={styles.ContactPage}>
+      <div className={styles.ContactContainer}> 
+        <div>
+            <h1>
+              <span className={styles.typing}>Come Say Hi,</span>
           </h1>
-        </h1>
+        </div>
       </div>
-       </dir>
-
-
 
       <div className={styles.Information}>
         <h2>
-          {`Come Connect On LinkedIn`}
-        <a href="https://www.linkedin.com/in/brandon-fenk/">
-          <img src={LinkedIn_LoGo} alt="black linkedin png" />
-        </a>
+          {`Connect With Me On LinkedIn`}
+          <a href='https://www.linkedin.com/in/brandon-fenk/'>
+            <img src={LinkedIn_LoGo} alt='black linkedin png' />
+          </a>
         </h2>
         <h2>
           {`Link To My`}
-          <a href="https://drive.google.com/file/d/1XmXcK48eL-O1FvyOBEUy9r5PBIcrb1Sp/view?usp=share_link">
+          <a href='https://drive.google.com/file/d/1XmXcK48eL-O1FvyOBEUy9r5PBIcrb1Sp/view?usp=share_link'>
             <h3>Resume</h3>
           </a>
         </h2>
       </div>
     </div>
-   
-  
-  )
+  );
 }
 
 export default ContactPage;

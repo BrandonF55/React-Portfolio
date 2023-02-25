@@ -68,3 +68,7 @@ Ive fixed all my issues with my portfolio and now everything is working.  I just
 3pm - 4pm
 
 im in the process of coding my Contact Page for my portfolio. Im running into some issue with imports but im sure its a easy fix. 
+
+4pm - 5pm 
+
+I got the base of my project completed. I still need to add a Project Component and route to that component. I did get all my information on my contact page it just needs to be styled correctly.
