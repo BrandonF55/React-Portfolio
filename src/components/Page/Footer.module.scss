@@ -1,0 +1,26 @@
+.Footer{
+  height: 10vh;
+
+  a img {
+    height: 75px;
+  }
+
+  h4{
+    display: flex;
+    align-items: center;
+  }
+
+   a img:hover{
+    -webkit-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+  }
+
+  img{
+    // width: 10%;
+    // aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+
+  }
+}

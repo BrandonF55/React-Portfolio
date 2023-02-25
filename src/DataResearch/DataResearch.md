@@ -64,3 +64,7 @@ Ive fixed my Route problem. Small victory for today. So now im working on adding
 2pm - 3pm 
 
 Ive fixed all my issues with my portfolio and now everything is working.  I just Finished the NavBar right before 3pm. Its nice using some of the cool NavLink from react-router-dom library. making progress.
+
+3pm - 4pm
+
+im in the process of coding my Contact Page for my portfolio. Im running into some issue with imports but im sure its a easy fix. 

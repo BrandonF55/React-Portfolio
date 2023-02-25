@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.scss';
-import GitHubLOGO from '../../assets/GitHub_LOGO.png';
+import GitHubLOGO from '../../assets/GitHub-Mark.png';
 
 function Footer() {
   return (
@@ -10,7 +10,6 @@ function Footer() {
         <a href='https://github.com/BrandonF55'>
           <img className='GitHub' src={GitHubLOGO} alt='github logo' />
         </a>
-
       </h3>
     </footer>
   );
