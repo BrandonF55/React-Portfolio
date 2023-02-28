@@ -1,15 +1,25 @@
-.ContactPage{
+.ContactPage {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  
+
+  .ContactContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .Information {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
 
   a img {
     height: 45px;
     object-fit: contain;
     mix-blend-mode: color-burn;
-
   }
 
   a {
@@ -17,23 +27,30 @@
     text-decoration: none;
   }
 
-
-
   .typing {
-    overflow: hidden; 
+    overflow: hidden;
     white-space: nowrap;
     font-size: 1.5em;
-    border-right: .15em solid green; 
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-  
+    border-right: 0.15em solid green;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+
     @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
     }
-  
+
     @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: green }
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: green;
+      }
     }
   }
 }

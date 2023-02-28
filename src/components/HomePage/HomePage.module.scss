@@ -1,0 +1,51 @@
+
+.welcome {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 45px;
+  position: relative;
+
+  &__text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: slidein 3s ease-in-out forwards;
+    opacity: 0;
+  }
+
+  &__line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--yellow);
+    transform: scaleX(0);
+    animation: slidein 3s ease-in-out forwards;
+  }
+}
+
+
+@keyframes slidein {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleup {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
