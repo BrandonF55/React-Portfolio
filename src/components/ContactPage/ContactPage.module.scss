@@ -38,10 +38,17 @@
     mix-blend-mode: color-burn;
   }
 
+  a img:hover {
+    transform: rotate(10deg);
+  }
+
   a {
     padding-left: 10px;
     text-decoration: none;
   }
+
+
+
 
   .typing {
     overflow: hidden;
