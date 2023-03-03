@@ -32,7 +32,7 @@ function ContactPage() {
         <h2>
           {`Here You Can Find My:`}
           <a href='https://drive.google.com/file/d/1XmXcK48eL-O1FvyOBEUy9r5PBIcrb1Sp/view?usp=share_link'>
-            <h3 className='underline'>Resume</h3>
+            <h3>Resume</h3>
           </a>
         </h2>
         

@@ -30,9 +30,9 @@
   }
 
   h2 {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    display: flex; // new code
+    align-items: center; // new code
+    margin-bottom: 20px; //added this to help align the image with the text.
   }
 
   h3 {
@@ -55,8 +55,11 @@
   a {
     padding-left: 10px;
     text-decoration: none;
+    color: black
+  }
 
-    
+  a:hover {
+    transform: rotate(10deg);
   }
 
   .typing {
