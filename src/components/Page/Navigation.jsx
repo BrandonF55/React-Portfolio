@@ -16,7 +16,6 @@ function Navigation() {
         Contacts
       </NavLink>
     </nav>
-    
   );
 }
 

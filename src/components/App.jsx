@@ -8,7 +8,11 @@ import Layout from './Page/Layout';
 import HomePage from './HomePage/HomePage'
 import ContactPage from './ContactPage/ContactPage';
 import ProjectPage from './ProjectPage/ProjectPage';
-import ProjectNavigation from './ProjectPage/ProjectPageNavigation';
+import ProjectPageNavigation from './ProjectPage/ProjectPageNavigation';
+import GalleryGram from './ProjectPage/GalleryGram';
+
+
+
 
 function App() {
   return (
@@ -22,13 +26,16 @@ function App() {
             <Route index path='/' element={<HomePage/>}/>  
             <Route path='contact' element={<ContactPage/>}/>  
             <Route path='projects' element={<ProjectPage/>}/>  
-            <Route  index element={<ProjectNavigation/>}/>  
+            <Route  index element={<ProjectPageNavigation/>}/>  
+            <Route path='projects/gallerygram' element={<GalleryGram/>} />
+           
          
           </Route>
        
         </Routes>
      
       </Router>
+      
     </React.Fragment>
   );
 }

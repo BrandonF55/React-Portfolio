@@ -5,6 +5,7 @@ import LinkedIn_LoGo from '../../assets/LinkedIn_LoGo.png';
 function ContactPage() {
   return (
     <div className={styles.ContactPage}>
+      <hr />
 
       <div className={styles.ContactContainer}>
         <div>
@@ -17,7 +18,9 @@ function ContactPage() {
 
 
 
+
       <div className={styles.Information}>
+        
         <h2>
           {`Connect With Me On LinkedIn:`}
           <a href='https://www.linkedin.com/in/brandon-fenk/'>
@@ -27,7 +30,7 @@ function ContactPage() {
         
 
         <h2>
-          {`Here Is My`}
+          {`Here Is My:`}
           <a href='https://drive.google.com/file/d/1XmXcK48eL-O1FvyOBEUy9r5PBIcrb1Sp/view?usp=share_link'>
             <h3 className='underline'>Resume</h3>
           </a>

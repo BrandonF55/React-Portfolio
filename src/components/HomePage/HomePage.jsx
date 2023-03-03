@@ -14,7 +14,7 @@ function HomePage() {
 
       <div className={styles.aboutWrapper}>
         <div className={styles.About}>
-          <h2>I am Software Developer with a love for Front-end development:</h2>
+          <h2>I am full-stack software developer with a love for front-end development</h2>
           <p>
             My passion lies in crafting and designing programs from the ground up, with a particular focus on the front-end development process. There's nothing quite like the feeling of bringing a visually stunning web application to life! From the colors and typography to the layout and user interface, I pour my heart into creating truly beautiful and engaging experiences for users. It's an incredibly rewarding process that keeps me motivated and inspired every step of the way..
           </p>

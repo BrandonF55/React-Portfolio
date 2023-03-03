@@ -4,17 +4,21 @@ import styles from './ProjectPage.module.scss';
 
 function ProjectNavigation() {
   return (
+  
     <nav className={styles.ProjectList}>
-      <Link>
-        <h4>Silly String Factory</h4>
-        <h1> C# Application</h1>
+      <hr />
+      <Link to="sillystringfactor" alt="SillyStringFactor" title="StillyStringFactor">
+        <h1>Silly String Factory</h1>
+        <h4></h4>
       </Link>
 
-      <Link>
-        <h4>Gallery Gram</h4>
-        <h1> C# Application for Team Week At Epicodus</h1>
+      <Link to="gallerygram" alt="GalleryGram" title="GalleryGram">
+        <h1>Gallery Gram </h1>
+        <h4></h4>
       </Link>
+      <hr />
     </nav>
+
   );
 }
 
