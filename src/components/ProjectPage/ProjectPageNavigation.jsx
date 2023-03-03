@@ -9,7 +9,7 @@ function ProjectNavigation() {
     <nav className={styles.ProjectList}>
  
  
-      <Link to="sillystringfactor" alt="SillyStringFactor" title="StillyStringFactor">
+      <Link to="sillystringfactory" alt="SillyStringFactory" title="StillyStringFactory">
         <h1><u>Silly String Factory</u></h1>
         <h4></h4>
       </Link>
