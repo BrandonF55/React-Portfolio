@@ -1,14 +1,25 @@
 .ContactPage {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  padding-top: 50px;
+
+
+
+  hr {
+    width: 100%;
+  }
 
   .ContactContainer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 15%;
+  }
+
+  h1 {
+    text-align: center;
   }
 
   .Information {
@@ -16,45 +27,37 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    text-decoration: none;
   }
-  
-  .Information h2 {
+
+  h2 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    
   }
-  
-  .Information a img {
-    height: 45px;
-    object-fit: contain;
-    mix-blend-mode: color-burn;
-    margin-left: 10px;
- 
-  }
-  
 
-  a img {
+  h3 {
+    text-decoration: underline;
+  }
+
+  img {
+    width: 45px;
     height: 45px;
     object-fit: contain;
     mix-blend-mode: color-burn;
-    
+
   }
 
   a img:hover {
     transform: rotate(10deg);
+
   }
 
   a {
     padding-left: 10px;
     text-decoration: none;
+
+    
   }
-
-
-
-
-
 
   .typing {
     overflow: hidden;
@@ -62,24 +65,103 @@
     font-size: 1.5em;
     border-right: 0.15em solid green;
     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
 
-    @keyframes typing {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
+  @keyframes typing {
+    from {
+      width: 0;
     }
+    to {
+      width: 100%;
+    }
+  }
 
-    @keyframes blink-caret {
-      from,
-      to {
-        border-color: transparent;
-      }
-      50% {
-        border-color: green;
-      }
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: green;
     }
   }
 }
+
+
+// .ContactPage {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   margin: auto;
+//   margin-top: 100px;
+//   padding-top: 50px;
+
+//   .ContactContainer {
+//     display: flex;
+//     justify-content: flex-end;
+//   }
+
+//   .Information {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     text-align: center;
+//     text-decoration: none;
+//     padding-left: 25%;
+//   }
+  
+//   .Information h2 {
+//     display: flex;
+//     align-items: center;
+//     margin-bottom: 20px;
+//     padding-left: 25px;
+//   }
+  
+//   .Information a img {
+//     height: 45px;
+//     object-fit: contain;
+//     mix-blend-mode: color-burn;
+//   }
+  
+//   a img {
+//     height: 45px;
+//     object-fit: contain;
+//     mix-blend-mode: color-burn;
+//   }
+
+//   a img:hover {
+//     transform: rotate(10deg);
+//   }
+
+//   a {
+//     padding-left: 10px;
+//     text-decoration: none;
+//   }
+
+//   .typing {
+//     overflow: hidden;
+//     white-space: nowrap;
+//     font-size: 1.5em;
+//     border-right: 0.15em solid green;
+//     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+
+//     @keyframes typing {
+//       from {
+//         width: 0;
+//       }
+//       to {
+//         width: 100%;
+//       }
+//     }
+
+//     @keyframes blink-caret {
+//       from,
+//       to {
+//         border-color: transparent;
+//       }
+//       50% {
+//         border-color: green;
+//       }
+//     }
+//   }
+// }

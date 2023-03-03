@@ -1,0 +1,23 @@
+.ProjectPage{
+    text-decoration: none;
+    
+
+    .ProjectList {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .ProjectList a {
+        display: block;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        transition: transform 0.2s ease-in-out;
+        margin: 0 55px;
+      }
+      
+      .ProjectList a:hover {
+        transform: scale(2);
+      }
+      
+}
