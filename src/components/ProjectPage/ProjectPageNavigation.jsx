@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './ProjectPage.module.scss';
-import Arrow from './Arrow';
+import Arrow_Image from '../../assets/Arrow_Image.png';
+
 
 function ProjectNavigation() {
   return (
@@ -18,7 +19,7 @@ function ProjectNavigation() {
         <h1><u>Gallery Gram</u></h1>
         <h4></h4>
       </Link>
-    <Arrow/>
+      <img src={Arrow_Image} alt="Arrow pointing up" className={styles.arrowImage} /> 
     </nav>
   
 
