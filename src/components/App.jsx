@@ -10,7 +10,7 @@ import ContactPage from './ContactPage/ContactPage';
 import ProjectPage from './ProjectPage/ProjectPage';
 import ProjectPageNavigation from './ProjectPage/ProjectPageNavigation';
 import GalleryGram from './ProjectPage/GalleryGram';
-import SillyStringFactory from './ProjectPage/SillyStringFactory';
+import MrFenksSnowboards from './ProjectPage/MrFenksSnowboards';
 
 
 
@@ -30,7 +30,7 @@ function App() {
             <Route path='projects' element={<ProjectPage />} />
             <Route index element={<ProjectPageNavigation />} />
             <Route path='projects/gallerygram' element={<GalleryGram />} />
-            <Route path='projects/sillystringfactory' element={<SillyStringFactory />} />
+            <Route path='projects/mrfenks-snowboards' element={<MrFenksSnowboards />} />
 
 
 
