@@ -39,14 +39,15 @@ function GalleryGram() {
                 This is a Gallery application that utilizes uploading of pictures, liking pictures, and purchasing prints of the pictures that you enjoy. Utilizing a shopping cart API, authentication and authorization, and databases.Each user will create their own profile and gain access to their own profile showing photos that they have uploaded as well as the images that they have 'liked'.
             </em>
 
-            <h3>Getting started with the GalleryGram</h3>
+            <h3><u>Team Week Project</u></h3>
             <li>
-                Users can create a account on the main page where it will create you a profile where you can upload, like, and print pictures you like on the application.
+            Our Gallery Gram team consisted of four members who worked collaboratively to develop an application over the course of a week. In order to streamline the development process, your team decided to divide into two groups: a back-end team and a front-end team. The back-end team focused on setting up the necessary API and database, as well as carefully refining the overall functionality of the application. The front-end team was responsible for designing an aesthetically pleasing and user-friendly interface that would enhance the user experience. By leveraging the strengths and expertise of each team, your group was able to effectively develop a fully-functional application that satisfied both technical and design requirements.
             </li>
-            <h3>Interactive Application</h3>
+            <h3><u>My Part In The Application</u></h3>
             <li>
-                On the Main Page of the application you'll see all of the pictures you liked awhile scrolling through and liking pictures. You can Fully order the picture of your choosing through a sand-box Api. It doesn't actually place the order but you get a order number once you hit the check out button.
+             
             </li>
+            As a member of the front-end team, focus was on creating a visually appealing and intuitive user interface for the Gallery Gram application. I played an integral role in designing and implementing a sleek and modern layout that not only met the functional requirements of the application but also provided an enjoyable user experience. My attention to detail and keen eye for design helped to elevate the overall aesthetic of the application, making it more engaging and attractive to users. My contribution to the front-end team demonstrates my proficiency in user interface design and my ability to collaborate effectively with my colleagues to deliver a high-quality product.
 
             <div>
                 <img src="" alt="" />

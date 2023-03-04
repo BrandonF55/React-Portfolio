@@ -71,20 +71,39 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 100vh;
         margin-bottom: 50px;
-       
+        // margin-left: 65px;
+        position: fixed;
+        top: 0;
     }
-
-    .IconContainer img{
-        width: 10%;
+    
+    .IconContainer img {
+        width: 7%;
         object-fit: contain;
         mix-blend-mode: color-burn;
         transition: transform 0.2s ease-in-out;
-
     }
+    
     .IconContainer img:hover {
         transform: scale(1.1);
     }
 
+    .ProjectLinks h2 {
+        transition: transform 0.2s ease-in-out;
+      }
+      
+      .ProjectLinks h2:hover {
+        transform: rotate(10deg);
+      }
+
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+    li{
+        list-style: none;
+    }
       
