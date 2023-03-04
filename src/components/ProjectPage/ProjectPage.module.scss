@@ -71,6 +71,20 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 100vh;
+        margin-bottom: 50px;
+       
+    }
+
+    .IconContainer img{
+        width: 10%;
+        object-fit: contain;
+        mix-blend-mode: color-burn;
+        transition: transform 0.2s ease-in-out;
+
+    }
+    .IconContainer img:hover {
+        transform: scale(1.1);
     }
 
       
