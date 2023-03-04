@@ -1,5 +1,12 @@
 import React from "react";
 import styles from './ProjectPage.module.scss';
+import ASP_Net from '../../assets/ASP_NET.png'
+import C from '../../assets/C#.png'
+import CSS1 from '../../assets/CSS1.png'
+import HTML from '../../assets/HTML.png'
+import MySQL from '../../assets/MySQL.png'
+
+
 
 function GalleryGram() {
     return (
@@ -14,13 +21,17 @@ function GalleryGram() {
 
             <h3>Technologies Used</h3>
             <div className={styles.IconContainer}>
-                <p className={styles.Icons}>C#</p>
+
+                {/* <p className={styles.Icons}>{C}</p> */}
+                <img src={C} alt="" />
                 <p className={styles.Icons}>ASP.NET</p>
                 <p className={styles.Icons}>MySQL</p>
                 <p className={styles.Icons}>Entity Framework Core 6.0.0</p>
                 <p className={styles.Icons}>Postman</p>
-                <p className={styles.Icons}>CSS</p>
+                <img src={CSS1} alt="" />
+                {/* <p className={styles.Icons}>{CSS1}</p> */}
                 <p className={styles.Icons}>HTML</p>
+            
             </div>
 
 
