@@ -13,7 +13,7 @@ import Postman from '../../assets/Postman.png'
 function GalleryGram() {
     return (
         <div className={styles.ProjectsContainer}>
-        
+     <hr />
             <h1><u>Welcome To The Gallery Gram</u></h1>
 
             <div className={styles.ProjectLinks}>

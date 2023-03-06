@@ -4,6 +4,8 @@ import styles from './Navigation.module.scss';
 
 function Navigation() {
   return (
+    <div>
+    
     <nav className={styles.Navigation}>
       
       <NavLink to='/' alt='Home' title='Home'>
@@ -16,6 +18,7 @@ function Navigation() {
         Contacts
       </NavLink>
     </nav>
+    </div>
   );
 }
 

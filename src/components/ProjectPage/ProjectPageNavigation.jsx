@@ -8,7 +8,7 @@ function ProjectNavigation() {
   return (
   
     <nav className={styles.ProjectList}>
- 
+ <hr />
  
       <Link to="mrfenks-snowboards" alt="MrFenks-Snowboards" title="MrFenks-Snowboards">
         <h1><u>MrFenks-Snowboards</u></h1>

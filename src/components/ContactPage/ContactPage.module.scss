@@ -1,14 +1,14 @@
-.ContactPage  {
+.ContactPage {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 
-
-
-  hr {
-    width: 100%;
+  hr{
+    width: 100vw;
   }
+
 
   .ContactContainer {
     display: flex;
@@ -16,6 +16,8 @@
     align-items: center;
     margin-bottom: 50px;
     margin-top: 10%;
+    max-width: 800px;
+    width: 100%;
   }
 
   h1 {
@@ -30,9 +32,9 @@
   }
 
   h2 {
-    display: flex; // new code
-    align-items: center; // new code
-    margin-bottom: 20px; //added this to help align the image with the text.
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
   }
 
   h3 {
@@ -44,18 +46,16 @@
     height: 45px;
     object-fit: contain;
     mix-blend-mode: color-burn;
-
   }
 
   a img:hover {
     transform: rotate(10deg);
-
   }
 
   a {
     padding-left: 10px;
     text-decoration: none;
-    color: black
+    color: black;
   }
 
   a:hover {
@@ -88,87 +88,4 @@
       border-color: green;
     }
   }
-
- 
-  
-
 }
-
-
-// .ContactPage {
-//   display: flex;
-//   flex-direction: row;
-//   align-items: center;
-//   margin: auto;
-//   margin-top: 100px;
-//   padding-top: 50px;
-
-//   .ContactContainer {
-//     display: flex;
-//     justify-content: flex-end;
-//   }
-
-//   .Information {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     text-align: center;
-//     text-decoration: none;
-//     padding-left: 25%;
-//   }
-  
-//   .Information h2 {
-//     display: flex;
-//     align-items: center;
-//     margin-bottom: 20px;
-//     padding-left: 25px;
-//   }
-  
-//   .Information a img {
-//     height: 45px;
-//     object-fit: contain;
-//     mix-blend-mode: color-burn;
-//   }
-  
-//   a img {
-//     height: 45px;
-//     object-fit: contain;
-//     mix-blend-mode: color-burn;
-//   }
-
-//   a img:hover {
-//     transform: rotate(10deg);
-//   }
-
-//   a {
-//     padding-left: 10px;
-//     text-decoration: none;
-//   }
-
-//   .typing {
-//     overflow: hidden;
-//     white-space: nowrap;
-//     font-size: 1.5em;
-//     border-right: 0.15em solid green;
-//     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-
-//     @keyframes typing {
-//       from {
-//         width: 0;
-//       }
-//       to {
-//         width: 100%;
-//       }
-//     }
-
-//     @keyframes blink-caret {
-//       from,
-//       to {
-//         border-color: transparent;
-//       }
-//       50% {
-//         border-color: green;
-//       }
-//     }
-//   }
-// }

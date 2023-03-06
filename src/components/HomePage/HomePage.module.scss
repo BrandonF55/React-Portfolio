@@ -1,4 +1,8 @@
-  
+  hr{
+    width: 100vw;
+  }
+
+
   .welcome {
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
@@ -30,36 +34,46 @@
       }
     
 
-  .aboutWrapper {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    margin: auto;
-    max-width: 800px;
-    height: 64vh;
-    text-align: center;
-
-  }
-
-  @keyframes slidein {
-    from {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-
-  @keyframes scaleup {
-    from {
-      transform: scaleX(0);
-    }
-
-    to {
-      transform: scaleX(1);
-    }
-  }
-
+      .aboutWrapper {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        margin: auto;
+        max-width: 800px;
+        height: 64vh;
+        text-align: center;
+        opacity: 0;
+      }
+      
+      .fadeIn {
+        animation: fadein 10s ease-in-out forwards;
+      }
+      
+      @keyframes slidein {
+        from {
+          transform: translateX(-120%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      
+      @keyframes scaleup {
+        from {
+          transform: scaleX(0);
+        }
+        to {
+          transform: scaleX(1);
+        }
+      }
+      
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }

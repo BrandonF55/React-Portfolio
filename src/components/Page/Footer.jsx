@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.scss';
 import GitHubLOGO from '../../assets/GitHub-Mark.png';
-import MyComponent from '../Effect'
+
 
 function Footer() {
   return (
@@ -12,7 +12,6 @@ function Footer() {
           <img className={styles.GitHub} src={GitHubLOGO} alt='github logo' />
         </a>
       </div>
-      {/* <MyComponent/> */}
     </footer>
   );
 }

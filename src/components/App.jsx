@@ -11,6 +11,7 @@ import ProjectPage from './ProjectPage/ProjectPage';
 import ProjectPageNavigation from './ProjectPage/ProjectPageNavigation';
 import GalleryGram from './ProjectPage/GalleryGram';
 import MrFenksSnowboards from './ProjectPage/MrFenksSnowboards';
+import CustomParticles from './Particle';
 
 
 
@@ -39,7 +40,7 @@ function App() {
         </Routes>
 
       </Router>
-
+     {/* <CustomParticles/> */}
     </React.Fragment>
   );
 }

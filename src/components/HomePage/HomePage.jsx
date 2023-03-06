@@ -1,10 +1,6 @@
 import React from 'react';
 import styles from './HomePage.module.scss';
-import MyComponent from '../Effect'
-
-
-
-
+import CustomParticles  from '../Particle';
 
 
 function HomePage() {
@@ -17,7 +13,7 @@ function HomePage() {
       </div>
       <hr />
 
-      <div className={styles.aboutWrapper}>
+      <div className={`${styles.aboutWrapper} ${styles.fadeIn}`}>
         <div className={styles.About}>
           <h2>I am full-stack software developer with a love for front-end development</h2>
           <p>
@@ -31,7 +27,7 @@ function HomePage() {
         
         </div>
       </div>
-      {/* <MyComponent/> */}
+      <CustomParticles/>
     </div>
   );
 }
