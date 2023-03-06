@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './HomePage.module.scss';
-// import ParticlesJS from "../ParticlesContainer";
+import MyComponent from '../Effect'
+
 
 
 
@@ -27,9 +28,10 @@ function HomePage() {
           Outside of coding, I love adventure and the great outdoors. I enjoy skiing, hiking, and exploring new trails, and I find relaxation through the art of glass blowing. If I'm not coding, you can find me experiencing all that the world has to offer.
           </p>
           <hr /> 
-        {/* <ParticlesJS/> */}
+        
         </div>
       </div>
+      {/* <MyComponent/> */}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import styles from './ContactPage.module.scss';
 import React from 'react';
 import LinkedIn_LoGo from '../../assets/LinkedIn_LoGo.png';
+import Selfie from './Selfie';
 
 function ContactPage() {
   return (
@@ -13,12 +14,12 @@ function ContactPage() {
             <span className={styles.typing}>Come Say Hi,</span>
           </h1>
         </div>
-
+        
       </div>
 
 
 
-
+      <Selfie />
       <div className={styles.Information}>
         
         <h2>
@@ -35,8 +36,8 @@ function ContactPage() {
             <h3>Resume</h3>
           </a>
         </h2>
-        
       </div>
+      {/* <Selfie /> */}
     </div>
   );
 }
