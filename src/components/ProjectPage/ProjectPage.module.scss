@@ -5,7 +5,7 @@
     
 
     .ProjectList {
-        padding-top: 10px;
+        padding-top: px;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -13,6 +13,7 @@
       }
       
       .ProjectList a {
+        padding-top: 35px;
         display: block;
         // font-size: 50px;
         text-align: center;

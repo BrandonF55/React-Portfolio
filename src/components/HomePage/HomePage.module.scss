@@ -2,6 +2,10 @@
     width: 100vw;
   }
 
+  .HomePage{
+    padding-top: 17px;
+  }
+
 
   .welcome {
     font-family: 'Montserrat', sans-serif;
@@ -12,6 +16,7 @@
     width: 100vw;
     height:50vh;
     
+    
 
   }
 
@@ -21,6 +26,7 @@
       transform: translate(-50%, -50%);
       animation: slidein 3s ease-in-out forwards;
       opacity: 0;
+      
     }
 
 .welcome__line {
@@ -75,5 +81,38 @@
         }
         to {
           opacity: 1;
+        }
+      }
+
+      @media only screen and (max-width: 768px) {
+        .welcome {
+          max-height: 90vh; /* increase the max-height */
+          font-size: 35px;
+          padding-right: 14%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 35px;
+          
+      
+        }
+        
+        .welcome__text {
+          top: 17%;
+          transform: translate(-50%, -50%);
+       
+        }
+        
+        .welcome__line {
+          margin-top: 38%;
+         
+        }
+        
+        .aboutWrapper {
+          max-width: 90%;
+        }
+
+        .aboutWrapper{
+          // padding-bottom: 25px;
         }
       }
