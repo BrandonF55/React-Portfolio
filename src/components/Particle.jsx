@@ -61,10 +61,10 @@ function CustomParticles(){
                     },
                     particles: {
                         color: {
-                            value: "#000000",
+                            value: "#2C5F2D",
                         },
                         links: {
-                            color: "#000000",
+                            color: "#2C5F2D",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,

@@ -2,6 +2,8 @@ import styles from './ContactPage.module.scss';
 import React from 'react';
 import LinkedIn_LoGo from '../../assets/LinkedIn_LoGo.png';
 import Selfie from './Selfie';
+import CustomParticles  from '../Particle';
+
 
 function ContactPage() {
   return (
@@ -24,7 +26,7 @@ function ContactPage() {
         
         <h2>
           {`Come Connect With Me On LinkedIn:`}
-          <a href='https://www.linkedin.com/in/brandon-fenk/'>
+          <a href='https://www.linkedin.com/in/brandon-fenk/' className={styles.LinkedIn}>
             <img src={LinkedIn_LoGo} alt='black linkedin png' />
           </a>
         </h2>
@@ -37,7 +39,7 @@ function ContactPage() {
           </a>
         </h2>
       </div>
-      {/* <Selfie /> */}
+    <CustomParticles/>
     </div>
   );
 }

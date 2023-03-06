@@ -8,6 +8,7 @@ import React1 from '../../assets/React1.png'
 function MrFenksSnowboards() {
     return (
         <div className={styles.ProjectsContainer}>
+    <hr />
             <h1><u>Welcome To Mr. Fenk's Snowboards</u></h1>
 
             <div>

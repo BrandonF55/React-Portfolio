@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 17px;
+  font-family: 'Lora', serif;
  
 
 
@@ -52,6 +53,10 @@
     mix-blend-mode: color-burn;
   }
 
+  .LinkedIn{
+    z-index: 1;
+  }
+
   a img:hover {
     transform: rotate(10deg);
   }
@@ -70,7 +75,7 @@
     overflow: hidden;
     white-space: nowrap;
     font-size: 1.5em;
-    border-right: 0.15em solid green;
+    border-right: 0.15em solid #2C5F2D;
     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
   }
 
