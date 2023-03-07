@@ -72,3 +72,10 @@ im in the process of coding my Contact Page for my portfolio. Im running into so
 4pm - 5pm 
 
 I got the base of my project completed. I still need to add a Project Component and route to that component. I did get all my information on my contact page it just needs to be styled correctly.
+
+------------------------------------------------------------------ 
+Dat-Log
+03/07/2023
+1pm - 2pm
+
+Ive been looking up videos on how to toggle from dark to light theme. Its turning out to be pretty difficult process. I just finished up styling and adding everything that i wanted to add.

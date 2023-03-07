@@ -1,29 +1,31 @@
-import { useThemeContext } from '../../../state/ThemeProvider';
-
- function ThemeButton() {
-
-  const toggleTheme = () => {
-    if (theme === 'dark') {
-      setTheme('light');
-    } else {
-      setTheme('dark');
-    }
-  };
-
-  const {
-    theme, 
-    setTheme,
-  } = useThemeContext();
-  return (
-    <button
-      title={`${theme === 'light' ? 'switch to dark mode' : 'switch to light mode'}`}
-      className={`material-symbols-${theme === 'dark' ? 'outlined' : 'rounded'}`}
-      onClick={toggleTheme}
-    >
-      {`${theme === 'light' ? 'dark_mode' : 'light_mode'}`}
-    </button>
-  );
-}
+// import { useThemeContext } from '../../../state/ThemeProvider';
+// import styles from './ThemeButton.module.scss'
 
 
-export default ThemeButton;
+
+// function ThemeButton() {
+//     const { theme, setTheme } = useThemeContext();
+  
+//     const toggleTheme = () => {
+//       if (theme === 'dark') {
+//         setTheme('light');
+//       } else {
+//         setTheme('dark');
+//       }
+//       console.log(theme)
+//     };
+  
+//     const buttonClass = theme === 'dark' ? styles.dark : styles.light;
+  
+//     return (
+//       <button
+//         className={`${styles.button} ${buttonClass}`}
+//         onClick={toggleTheme}
+//       >
+//         {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
+//       </button>
+//     );
+//   }
+
+
+// export default ThemeButton;

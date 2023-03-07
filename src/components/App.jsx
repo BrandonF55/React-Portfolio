@@ -3,6 +3,7 @@ import '../global.module.scss'
 
 
 
+
 import React from 'react';
 import Layout from './Page/Layout';
 import HomePage from './HomePage/HomePage'
@@ -11,7 +12,8 @@ import ProjectPage from './ProjectPage/ProjectPage';
 import ProjectPageNavigation from './ProjectPage/ProjectPageNavigation';
 import GalleryGram from './ProjectPage/GalleryGram';
 import MrFenksSnowboards from './ProjectPage/MrFenksSnowboards';
-import { useThemeContext } from '../state/ThemeProvider'; 
+
+
 
 // Tired add this to make theme change^
 
@@ -21,12 +23,11 @@ import { useThemeContext } from '../state/ThemeProvider';
 
 
 function App() {
-  const { theme } = useThemeContext(); // added to try and get theme to switch
 
 
   return (
-    <div className={`App ${theme}`}> 
-{/* add this to try and change theme */}
+  
+
       <Router>
 
         <Routes>
@@ -46,8 +47,9 @@ function App() {
         </Routes>
 
       </Router>
-     
-    </div>
+      
+
+    
   );
 }
 
