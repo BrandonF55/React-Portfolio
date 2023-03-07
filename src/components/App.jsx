@@ -11,6 +11,9 @@ import ProjectPage from './ProjectPage/ProjectPage';
 import ProjectPageNavigation from './ProjectPage/ProjectPageNavigation';
 import GalleryGram from './ProjectPage/GalleryGram';
 import MrFenksSnowboards from './ProjectPage/MrFenksSnowboards';
+import { useThemeContext } from '../state/ThemeProvider'; 
+
+// Tired add this to make theme change^
 
 
 
@@ -18,9 +21,12 @@ import MrFenksSnowboards from './ProjectPage/MrFenksSnowboards';
 
 
 function App() {
-  return (
-    <React.Fragment>
+  const { theme } = useThemeContext(); // added to try and get theme to switch
 
+
+  return (
+    <div className={`App ${theme}`}> 
+{/* add this to try and change theme */}
       <Router>
 
         <Routes>
@@ -41,7 +47,7 @@ function App() {
 
       </Router>
      
-    </React.Fragment>
+    </div>
   );
 }
 
