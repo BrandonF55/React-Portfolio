@@ -12,6 +12,7 @@ import ProjectPage from './ProjectPage/ProjectPage';
 import ProjectPageNavigation from './ProjectPage/ProjectPageNavigation';
 import GalleryGram from './ProjectPage/GalleryGram';
 import MrFenksSnowboards from './ProjectPage/MrFenksSnowboards';
+import { useThemeContext } from '../state/ThemeProvider';
 
 
 
@@ -23,10 +24,11 @@ import MrFenksSnowboards from './ProjectPage/MrFenksSnowboards';
 
 
 function App() {
+  const { theme } = useThemeContext();
 
 
   return (
-  
+  <div className={`App ${theme}`}> 
 
       <Router>
 
@@ -47,7 +49,7 @@ function App() {
         </Routes>
 
       </Router>
-      
+       </div>
 
     
   );

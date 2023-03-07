@@ -7,6 +7,7 @@ import MySQL from '../../assets/MySQL.png'
 import CSS from '../../assets/CSS.png'
 import Net from '../../assets/Net.png'
 import Postman from '../../assets/Postman.png'
+import Typewriter from 'react-typewriter-effect';
 
 
 

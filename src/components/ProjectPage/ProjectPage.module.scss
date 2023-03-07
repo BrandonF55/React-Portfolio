@@ -187,3 +187,33 @@ li {
     transform: rotate(360deg);
   }
 }
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+// /* Styling for TextContainer */
+// .TextContainer {
+//   // overflow: hidden; /* Ensures that the text is hidden until the animation starts */
+//   border-right: 0.15em solid rgb(8, 133, 20); /* Creates a cursor effect */
+//   // white-space: nowrap; /* Prevents line breaks in the text */
+//   // letter-spacing: 0.15em; /* Increases space between characters for better visibility */
+//   animation: typewriter 4s steps(30) 1s 1 normal both; /* Sets the animation properties */
+// }
+
+// /* Styling for headings */
+// h3 {
+//   // font-size: 1.5rem;
+//   // margin-bottom: 0.5rem;
+//   // text-decoration: underline;
+// }
+
+// /* Styling for paragraphs */
+// // em {
+// //   font-style: italic;
+// // }
