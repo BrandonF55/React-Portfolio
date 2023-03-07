@@ -1,114 +1,139 @@
+.ProjectPage {
+  // padding-top: 25%;
+  text-decoration: none;
+  font-family: 'Lora', serif;
 
-.ProjectPage{
-    // padding-top: 25%;
+
+  .ProjectList {
+    padding-top: px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;
+  }
+
+  .ProjectList a {
+    padding-top: 35px;
+    display: block;
+    // font-size: 50px;
+    text-align: center;
+    color: black;
     text-decoration: none;
-    font-family: 'Lora', serif;
-    
+    transition: transform 0.3s ease-in-out;
+    // margin: 0 55px;
 
-    .ProjectList {
-        padding-top: px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        font-size: 50px;
-      }
-      
-      .ProjectList a {
-        padding-top: 35px;
-        display: block;
-        // font-size: 50px;
-        text-align: center;
-        color: black;
-        text-decoration: none;
-        transition: transform 0.3s ease-in-out;
-        // margin: 0 55px;
-   
-      }
-      
-      .ProjectList a:hover {
-        transform: scale(1.2);
-      }
+  }
+
+  .ProjectList a:hover {
+    transform: scale(1.2);
+  }
 
 
 
-    .arrowImage {
-        width: 30px;
-        height: 30px;
-        text-align: center;
-      }
-      img {
-        display: block;
-        margin: 0 auto;
-     
-      }
+  .arrowImage {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
 
-      .arrowImage {
-        width: 75px;
-        height: 75px;
-        text-align: center;
-        animation: arrowBounce 1s ease-in-out infinite;
-      
-    
+  img {
+    display: block;
+    margin: 0 auto;
 
-      }
-      
-      @keyframes arrowBounce {
-        0% {
-          transform: translateY(0);
-        }
-        50% {
-          transform: translateY(15px);
-        }
-        100% {
-          transform: translateY(0);
-        }
-      }
+  }
 
+  .arrowImage {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    animation: arrowBounce 1s ease-in-out infinite;
+
+
+
+  }
+
+  @keyframes arrowBounce {
+    0% {
+      transform: translateY(0);
     }
 
-
-    .ProjectsContainer {
-        padding: 30px;
-        width: 80vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 50px;
-        // margin-bottom: 25px;
-        // margin-left: 65px;
-        position: fixed;
-        top: 0;
-        font-family: 'Lora', serif;
-    }
-    
-    .IconContainer img {
-        width: 7%;
-        object-fit: contain;
-        mix-blend-mode: color-burn;
-        transition: transform 0.2s ease-in-out;
-    }
-    
-    .IconContainer img:hover {
-        transform: scale(1.1);
+    50% {
+      transform: translateY(15px);
     }
 
-    .ProjectLinks h2 {
-        transition: transform 0.2s ease-in-out;
-      }
-      
-      .ProjectLinks h2:hover {
-        transform: rotate(10deg);
-      }
-
-
-    a{
-        text-decoration: none;
-        color: black;
+    100% {
+      transform: translateY(0);
     }
+  }
+
+}
 
 
-    li{
-        list-style: none;
-    }
-      
+.ProjectsContainer {
+  /* set a maximum height for the container */
+  overflow-y: scroll;
+  margin: 50px auto 0;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Lora', serif;
+  width: auto;
+  
+
+}
+
+.TextContainer{
+  max-width: 800px;
+  margin: 0 20px; // add new code here to make all the words fit on the project page
+}
+
+.IconContainer img {
+  width: 7%;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  transition: transform 0.2s ease-in-out;
+}
+
+.IconContainer img:hover {
+  transform: scale(1.1);
+}
+
+
+
+.ProjectLinks h2 {
+  transition: transform 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.ProjectLinks h2:hover {
+  transform: rotate(10deg);
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+
+li {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .IconContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .IconContainer img {
+    max-width: 50%;
+    margin: 10px;
+  }
+}

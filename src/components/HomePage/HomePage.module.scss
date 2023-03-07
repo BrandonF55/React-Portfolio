@@ -14,7 +14,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     width: 100vw;
-    height:50vh;
+    height:45vh;
     
     
 
@@ -46,10 +46,11 @@
         font-weight: 500;
         margin: auto;
         max-width: 800px;
-        height: 64vh;
+        height: 77vh;
         text-align: center;
         opacity: 0;
-        font-family: 'Lora', serif;
+        font-family: 'Lora', serif; // we need to fix so we can scroll down
+
       }
       
       .fadeIn {

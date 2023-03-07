@@ -15,7 +15,7 @@ function Navigation() {
         Projects
       </NavLink>
       <NavLink to='contact' alt='contacts' title='Contacts'>
-        Contacts
+        Contact Info
       </NavLink>
     </nav>
     </div>
