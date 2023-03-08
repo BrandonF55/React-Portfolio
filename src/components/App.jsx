@@ -13,6 +13,7 @@ import ProjectPageNavigation from './ProjectPage/ProjectPageNavigation';
 import GalleryGram from './ProjectPage/GalleryGram';
 import MrFenksSnowboards from './ProjectPage/MrFenksSnowboards';
 import { useThemeContext } from '../state/ThemeProvider';
+import styles from '../global.module.scss'
 
 
 
@@ -25,7 +26,7 @@ import { useThemeContext } from '../state/ThemeProvider';
 
 function App() {
   const { theme } = useThemeContext();
-
+  
 
   return (
   <div className={`App ${theme}`}> 

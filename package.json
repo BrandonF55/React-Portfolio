@@ -17,6 +17,7 @@
     "react-tsparticles": "^2.9.3",
     "react-typewriter-effect": "^1.1.0",
     "tsparticles": "^2.9.3",
+    "use-local-storage": "^2.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

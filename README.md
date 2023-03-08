@@ -20,10 +20,19 @@ My portfolio includes a homepage that introduces you and your work, as well as s
 
 The design of my portfolio should is clean, modern, and visually appealing to attract potential employers or clients. I use various tools, such as CSS, to style my portfolio and make it unique.
 
+## Library's used In The Project.
+
+* _Animation.Css_
+* _React-Particles-JS_
+* _React-Router-Dom_
+* _SASS_
+
 
 
 ## Setup/Installation Requirements
 
+* _Pull Down the project from https://github.com/BrandonF55/React-Portfolio_
+* _Once on your local machine CD into the project, and open it with code ._
 * _Installing all packages with $ npm install._
 * _Building the project using webpack with $ npm run build_
 * _Starting a development server with $ npm run start_
@@ -31,7 +40,8 @@ The design of my portfolio should is clean, modern, and visually appealing to at
 
 ## Known Bugs
 
-* _No known bugs at this time_
+* _No known bugs at this time_ 
+* _If you find any issue with the project feel free to contact me at Brandon.fenk99@gmail.com_
 
 ## License
 

@@ -104,6 +104,26 @@
  
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.FadeIn {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+
 .IconContainer img { //animation to the images
   width: 7%;
   object-fit: contain;
