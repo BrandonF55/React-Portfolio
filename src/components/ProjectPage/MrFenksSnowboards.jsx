@@ -4,12 +4,13 @@ import CSS from '../../assets/CSS.png'
 import HTML from '../../assets/HTML.png'
 import JS from '../../assets/JS.png'
 import React1 from '../../assets/React1.png'
+import 'animate.css';
 
 function MrFenksSnowboards() {
     return (
         <div className={styles.ProjectsContainer}>
             <hr />
-            <h1><u>Welcome To Mr. Fenk's Snowboards</u></h1>
+            <h1 className="animate__animated animate__fadeInDown" ><u>Welcome To Mr. Fenk's Snowboards</u></h1>
 
             <div>
 
