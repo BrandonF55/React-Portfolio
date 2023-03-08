@@ -2,6 +2,7 @@
   // padding-top: 25%;
   text-decoration: none;
   font-family: 'Lora', serif;
+ 
 
 
   .ProjectList {
@@ -10,7 +11,12 @@
     justify-content: center;
     flex-direction: column;
     font-size: 50px;
+    
+  
   }
+
+
+  
 
   .ProjectList a {
     padding-top: 35px;
@@ -20,11 +26,16 @@
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
     // margin: 0 55px;
+    display: inline-block;
+    max-width: 100%;
 
   }
 
   .ProjectList a:hover {
-    transform: scale(1.2);
+    transform: scale(1.2);  //animation for projects
+  
+    
+   
   }
 
 
@@ -70,7 +81,7 @@
 // below is all the stuff in each project
 .ProjectsContainer {
   /* set a maximum height for the container */
-  overflow-y: scroll;
+                       // i had overflow-y: scroll giving the page a bottom scroll
   margin: 18px auto 0;
   padding-bottom: 90px;
   display: flex;
@@ -79,6 +90,9 @@
   text-align: center;
   font-family: 'Lora', serif;
   width: auto;
+  
+  
+  
   // background-color: ;
   
 
@@ -87,6 +101,7 @@
 .TextContainer{
   max-width: 800px;
   margin: 0 20px; // add new code here to make all the words fit on the project page
+ 
 }
 
 .IconContainer img { //animation to the images
@@ -179,23 +194,23 @@ li {
   animation: spin 10s linear infinite;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+// @keyframes spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
 
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
+// @keyframes typewriter {
+//   from {
+//     width: 0;
+//   }
+//   to {
+//     width: 100%;
+//   }
+// }
 
 // /* Styling for TextContainer */
 // .TextContainer {

@@ -24,4 +24,4 @@ function ThemeProvider({ children }) {
 
 export const useThemeContext = () => useContext(ThemeContext);
 
-export default ThemeProvider
+export default ThemeProvider;
