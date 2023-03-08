@@ -1,17 +1,27 @@
-import { useState, createContext, useContext } from 'react';
-const ThemeContext = createContext();
+import React, { createContext, useState, useContext, useEffect } from 'react';
 
-export default function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState('dark');
+export const ThemeContext = createContext({});
 
-  const stateAndSetters = {
-    theme,
-    setTheme,
-  };
+function ThemeProvider({ children }) {
+  const [theme, setTheme] = useState('light');
 
-  return <ThemeContext.Provider value={stateAndSetters}>{children}</ThemeContext.Provider>;
+  useEffect(() => {
+    const html = document.querySelector('html');
+    html.classList.add(theme);
+    return () => {
+      html.classList.remove(theme);
+    };
+  }, [theme]);
+
+  const value = { theme, setTheme };
+
+  return (
+    <ThemeContext.Provider value={value}>
+      {children}
+    </ThemeContext.Provider>
+  );
 }
 
-export function useThemeContext() {
-  return useContext(ThemeContext);
-}
+export const useThemeContext = () => useContext(ThemeContext);
+
+export default ThemeProvider

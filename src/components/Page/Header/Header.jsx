@@ -8,7 +8,7 @@ function Header(){
   return (
     <header className={styles.Header}>
       <Navigation/>
-      {/* <ThemeButton/>        */}
+      <ThemeButton/>       
 
       {/* added this to make the button appear */}
     </header>
