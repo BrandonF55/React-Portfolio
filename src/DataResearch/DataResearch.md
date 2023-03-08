@@ -79,3 +79,9 @@ Dat-Log
 1pm - 2pm
 
 Ive been looking up videos on how to toggle from dark to light theme. Its turning out to be pretty difficult process. I just finished up styling and adding everything that i wanted to add.
+
+03/08/2023
+8pm - 10pm 
+
+looking up youtube videos on junior react developers and seeing anything i need to add to mine to sand out for employers.
+trying to see how mine is missing.

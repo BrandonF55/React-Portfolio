@@ -5,6 +5,7 @@ import GitHubLOGO from '../../assets/GitHub-Mark.png';
 
 function Footer() {
   return (
+    
     <footer className={styles.Footer}>
       <div className={styles.Container}>
         <h3>Find My Recent Work Here:</h3>

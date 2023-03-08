@@ -10,6 +10,8 @@
   background-color: #fff;
   z-index: 100;
   font-family: 'Major Mono Display', monospace;
+  ;
+  
 
   .Container {
     display: flex;
@@ -26,6 +28,6 @@
 
   img {
     object-fit: contain;
-    // mix-blend-mode: color-burn;
+    mix-blend-mode: normal;
   }
 }

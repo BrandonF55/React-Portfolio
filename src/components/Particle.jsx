@@ -68,7 +68,7 @@ function CustomParticles(){
                             distance: 150,
                             enable: true,
                             opacity: 0.5,
-                            width: 2,
+                            width: 3,
                         },
                         collisions: {
                             enable: true,
