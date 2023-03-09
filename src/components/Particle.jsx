@@ -22,7 +22,7 @@ function CustomParticles() {
             width: '100%',
             height: '100%',
             backgroundColor: '#000000',
-            zIndex: -1
+            zIndex: -1 
         }}>
             <Particles
                 id="tsparticles"
