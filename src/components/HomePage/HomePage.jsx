@@ -15,7 +15,8 @@ function HomePage() {
 
       <div className={`${styles.aboutWrapper} ${styles.fadeIn}`}>
         <div className={styles.About}>
-          <h2>I am full-stack software developer with a love for front-end development!</h2>
+          <h2><u>I am full-stack software developer with a love for front-end development!</u></h2>
+          <h3><u>Here is a little about me:</u></h3>
           <p>
             My passion lies in crafting and designing programs from the ground up, with a particular focus on the front-end development process. There's nothing quite like the feeling of bringing a visually stunning web application to life! From the typography, to the layout and user interface, I put my heart into creating truly beautiful and engaging experiences for users. It's an incredibly rewarding process that keeps me motivated and inspired every step of the way..
           </p>

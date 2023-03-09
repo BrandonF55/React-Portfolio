@@ -102,7 +102,7 @@ Ive always watched https://www.youtube.com/watch?v=6Z5nHf1jT5Y in the mean time 
 
 11am - 12pm
 
-
+Ive gave up on the idea of implementing a Toggle Theme into the project. Ive been getting ready for the presentation and making sure anything is in order before 3pm. im going through the scss and add comments where i feel i want to add more background on what is happening with the styling. Im continuing to get ready for the presentation. And getting everything in order. 
 
 
 
