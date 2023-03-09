@@ -86,12 +86,24 @@ Ive been looking up videos on how to toggle from dark to light theme. Its turnin
 looking up youtube videos on junior react developers and seeing anything i need to add to mine to sand out for employers.
 trying to see how mine is missing. https://www.youtube.com/watch?v=uC9f_osm1mo someone reviewing portfolios.  was also reviewing this video as well https://www.youtube.com/watch?v=oluY633rkgI&t=311s to see if i need to change the projects i have in my project.
 
-//------------------------------
+//----------------------------------------------------------------------
 
 Data-Log
-03/09/2023
+03/09/2023 finally day of CapStone.
 8pm - 10pm
 
-not coding at this time. Im currently watching this video to learn more about use context hook. https://www.youtube.com/watch?v=5LrDIWkK_Bc
+Not coding at this time. Im currently watching this video to learn more about use context hook. https://www.youtube.com/watch?v=5LrDIWkK_Bc. Im getting confused because there are so many different ways to achieve this. as of 10pm im still watching the video trying to get a solid understand of what im doing wrong.
+
+
+10am - 11am
+
+Ive always watched https://www.youtube.com/watch?v=6Z5nHf1jT5Y in the mean time between 10am and 11am. I attempt to code a little bit of to try and get it to work but i cant anything to work. I can get the button to change from light to dark but i cant get the whole page to change color? so, so confused. Im currently at 11pm. going through my project and cleaning up any commenting and organizing my scss files so they don't look lik a mess. Im also going over what im going to say in the presentation.
+
+
+11am - 12pm
+
+
+
+
 
 

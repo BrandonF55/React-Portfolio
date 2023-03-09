@@ -63,7 +63,7 @@ function CustomParticles() {
                         },
                         links: {
                             color: "#3A6B35",
-                            distance: 150,
+                            distance: 250,
                             enable: true,
                             opacity: 0.5,
                             width: 3,

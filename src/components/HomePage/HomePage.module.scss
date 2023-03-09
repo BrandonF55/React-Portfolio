@@ -1,13 +1,13 @@
-  hr{
+  hr {
     width: 100vw;
   }
 
-  .HomePage{
+  .HomePage {
     padding-top: 17px;
-   
+
   }
 
-  body{
+  body {
     overflow-x: hidden
   }
 
@@ -20,107 +20,117 @@
     text-align: center;
     letter-spacing: 0.1em;
     width: 100vw;
-    height:45vh;
-    
-    
-
+    height: 45vh;
   }
 
   .welcome__text {
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      animation: slidein 3s ease-in-out forwards;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: slidein 3s ease-in-out forwards;
+    opacity: 0;
+
+  }
+
+  .welcome__line {
+    position: absolute;
+    margin-top: 11%;
+    left: 0;
+    width: 100%;
+    background-color: var(--yellow);
+    transform: scaleX(0);
+    animation: slidein 3s ease-in-out forwards;
+  }
+
+
+  //Above is the welcome text and animation styling
+  //-----------------------------------------------------
+  // below is About me section for styling,
+
+
+  .aboutWrapper {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: auto;
+    max-width: 800px;
+    height: 77vh;
+    text-align: center;
+    opacity: 0;
+    font-family: 'Lora', serif; // we need to fix so we can scroll down
+
+  }
+
+  .fadeIn {
+    animation: fadein 10s ease-in-out forwards;
+  }
+
+  @keyframes slidein {
+    from {
+      transform: translateX(-120%);
       opacity: 0;
-      
     }
 
-.welcome__line {
-        position: absolute;
-        margin-top: 11%;
-        left: 0;
-        width: 100%;
-        background-color: var(--yellow);
-        transform: scaleX(0);
-        animation: slidein 3s ease-in-out forwards;
-      }
-    
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
-      .aboutWrapper {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 24px;
-        font-weight: 500;
-        margin: auto;
-        max-width: 800px;
-        height: 77vh;
-        text-align: center;
-        opacity: 0;
-        font-family: 'Lora', serif; // we need to fix so we can scroll down
+  @keyframes scaleup {
+    from {
+      transform: scaleX(0);
+    }
 
-      }
-      
-      .fadeIn {
-        animation: fadein 10s ease-in-out forwards;
-      }
-      
-      @keyframes slidein {
-        from {
-          transform: translateX(-120%);
-          opacity: 0;
-        }
-        to {
-          transform: translateX(0);
-          opacity: 1;
-        }
-      }
-      
-      @keyframes scaleup {
-        from {
-          transform: scaleX(0);
-        }
-        to {
-          transform: scaleX(1);
-        }
-      }
-      
-      @keyframes fadein {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
+    to {
+      transform: scaleX(1);
+    }
+  }
 
-      @media only screen and (max-width: 768px) {
-        .welcome {
-          max-height: 90vh; /* increase the max-height */
-          font-size: 35px;
-          padding-right: 14%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-right: 35px;
-          
-      
-        }
-        
-        .welcome__text {
-          top: 17%;
-          transform: translate(-50%, -50%);
-       
-        }
-        
-        .welcome__line {
-          margin-top: 38%;
-         
-        }
-        
-        .aboutWrapper {
-          max-width: 90%;
-        }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
 
-        .aboutWrapper{
-          // padding-bottom: 25px;
-        }
-      }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  //----------------------------------------------------------
+  @media only screen and (max-width: 768px) {
+
+    // this is for when the screen minimize.
+    .welcome {
+      max-height: 90vh;
+      /* increase the max-height */
+      font-size: 35px;
+      padding-right: 14%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 35px;
+
+
+    }
+
+    .welcome__text {
+      top: 17%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .welcome__line {
+      margin-top: 38%;
+
+    }
+
+    .aboutWrapper {
+      max-width: 90%;
+    }
+
+    .aboutWrapper {
+      // padding-bottom: 25px;
+    }
+  }

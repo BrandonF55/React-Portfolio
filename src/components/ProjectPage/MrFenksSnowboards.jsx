@@ -45,13 +45,8 @@ function MrFenksSnowboards() {
                     <li >
                         With this architecture, the application is divided into three main components: the Model, which represents the data and logic of the application; the View, which represents the user interface; and the Controller, which acts as the intermediary between the Model and View. By leveraging React, I was able to create a powerful and dynamic user interface that was both easy to update and highly customizable. Throughout the project, I focused on planning and designing a clear and organized structure for the application, carefully breaking down the requirements and ensuring the components interacted seamlessly with each other. My attention to detail and persistence allowed me to build a successful MVC React application that met my goals and surpassed my expectations. I am proud of the skills I developed during this project and look forward to applying them to future endeavors.
                     </li>
-
-
-
                 </div>
             </div>
-
-
         </div>
 
     )

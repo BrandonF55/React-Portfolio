@@ -23,7 +23,7 @@ The design of my portfolio should is clean, modern, and visually appealing to at
 ## Library's used In This Project.
 
 * _Animation.Css_
-* _React-Particles-JS_
+* _React-tsparticles_
 * _React-Router-Dom_
 * _SASS_
 

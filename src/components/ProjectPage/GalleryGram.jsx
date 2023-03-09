@@ -35,7 +35,7 @@ function GalleryGram() {
                 <img src={HTML} alt="HTML" />
             </div>
 
-            <div className={`${styles.TextContainer} ${styles.FadeIn}`}>
+            <div className={`${styles.TextContainer} ${styles.FadeIn}`}> // this is how you concatenate styling.
                 <h3><u>Description</u></h3>
                 <em>
                     This is a Gallery application that utilizes uploading of pictures, liking pictures, and purchasing prints of the pictures that you enjoy. Utilizing a shopping cart API, authentication and authorization, and databases.Each user will create their own profile and gain access to their own profile showing photos that they have uploaded as well as the images that they have 'liked'.
@@ -52,9 +52,7 @@ function GalleryGram() {
 
                     As a member of the front-end team, focus was on creating a visually appealing and intuitive user interface for the Gallery Gram application. I played an integral role in designing and implementing a sleek and modern layout that not only met the functional requirements of the application but also provided an enjoyable user experience. My attention to detail and keen eye for design helped to elevate the overall aesthetic of the application, making it more engaging and attractive to users. My contribution to the front-end team demonstrates my proficiency in user interface design and my ability to collaborate effectively with my colleagues to deliver a high-quality product.
                 </li  >
-
             </div>
-            {/* <Cursor/> */}
         </div>
     )
 }

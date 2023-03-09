@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className={styles.Header}>
       <Navigation />
-      {/* <ThemeButton/>        */}
+      {/* <ThemeButton/>   if you remove this comment the toggle button will appear in the navigation bar. */}
     </header>
   );
 }

@@ -3,21 +3,21 @@ import { NavLink } from 'react-router-dom';
 import styles from './Navigation.module.scss';
 
 function Navigation() {
+
+  
   return (
     <div>
-    
-    <nav className={styles.Navigation}>
-      
-      <NavLink to='/' alt='Home' title='Home'>
-        Home
-      </NavLink>
-      <NavLink to='projects' alt='projects' title='Projects'>
-        Projects
-      </NavLink>
-      <NavLink to='contact' alt='contacts' title='Contacts'>
-        Contact Info
-      </NavLink>
-    </nav>
+      <nav className={styles.Navigation}>
+        <NavLink to='/' alt='Home' title='Home'>
+          Home
+        </NavLink>
+        <NavLink to='projects' alt='projects' title='Projects'>
+          Projects
+        </NavLink>
+        <NavLink to='contact' alt='contacts' title='Contacts'>
+          Contact Info
+        </NavLink>
+      </nav>
     </div>
   );
 }
