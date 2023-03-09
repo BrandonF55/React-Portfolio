@@ -7,165 +7,165 @@ html,body{
   width: 100vw;
 }
 
-:root {
-  /* define your root variables */
+// :root {
+//   /* define your root variables */ // This Css is for the Toggle between dark mode and light mode.
 
-html.light {
-  --background-color: #fff;
-  --text-color: #000;
-}
-
-html.dark {
-  --background-color: #000;
-  --text-color: #fff;
-}
-
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
-
-}
-// body {
-//   background-color: var(--bg-color);
-//   color: var(--text-color);
-  
+// html.light {
+//   --background-color: #fff;
+//   --text-color: #000;
 // }
-.dark {
-  background-color: var(--almost-black);
-  color: var(--lightest-grey);
-}
 
-.dark body {
-  background-color: var(--almost-black);
-}
+// html.dark {
+//   --background-color: #000;
+//   --text-color: #fff;
+// }
 
-.dark main {
-  background-color: var(--almost-black);
-  background: repeat;
-}
+// body {
+//   background-color: var(--background-color);
+//   color: var(--text-color);
+// }
 
-.dark h1 {
-  font-size: 4rem;
-  color: var(--lightest-grey);
-}
+// }
+// // body {
+// //   background-color: var(--bg-color);
+// //   color: var(--text-color);
+  
+// // }
+// .dark {
+//   background-color: var(--almost-black);
+//   color: var(--lightest-grey);
+// }
 
-.dark h2 {
-  color: var(--green);
-}
+// .dark body {
+//   background-color: var(--almost-black);
+// }
 
-.dark h4 {
-  color: var(--grey);
-}
+// .dark main {
+//   background-color: var(--almost-black);
+//   background: repeat;
+// }
 
-.dark p {
-  color: var(--lightest-grey);
-}
+// .dark h1 {
+//   font-size: 4rem;
+//   color: var(--lightest-grey);
+// }
 
-.dark header {
-  border-bottom: 1px solid var(--dark-grey);
-  background-color: var(--almost-black);
-}
+// .dark h2 {
+//   color: var(--green);
+// }
 
-.dark footer {
-  border-top: 1px solid var(--dark-grey);
-  background-color: var(--almost-black);
-}
+// .dark h4 {
+//   color: var(--grey);
+// }
 
-.dark a .underline {
-  position: relative;
-  text-decoration: none;
-}
-.dark a .underline::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  border-radius: 4px;
-  background-color: var(--lightest-grey);
-  bottom: 0;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-}
+// .dark p {
+//   color: var(--lightest-grey);
+// }
 
-.dark a .underline:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-}
+// .dark header {
+//   border-bottom: 1px solid var(--dark-grey);
+//   background-color: var(--almost-black);
+// }
 
-/* light */
-.light {
-  background-color: var(--lightest-grey);
-  color: var(--almost-black);
-}
-/* body is a parent element how do i target this?? */
-.light,
-body {
-  background-color: var(--lightest-grey);
-  color: var(--almost-black);
-}
+// .dark footer {
+//   border-top: 1px solid var(--dark-grey);
+//   background-color: var(--almost-black);
+// }
 
-.light h1 {
-  font-size: 4rem;
-  color: var(--blue);
-}
+// .dark a .underline {
+//   position: relative;
+//   text-decoration: none;
+// }
+// .dark a .underline::before {
+//   content: '';
+//   position: absolute;
+//   width: 100%;
+//   height: 4px;
+//   border-radius: 4px;
+//   background-color: var(--lightest-grey);
+//   bottom: 0;
+//   left: 0;
+//   transform-origin: right;
+//   transform: scaleX(0);
+//   transition: transform 0.3s ease-in-out;
+// }
 
-.light h2 {
-  color: var(--green);
-}
+// .dark a .underline:hover::before {
+//   transform-origin: left;
+//   transform: scaleX(1);
+// }
 
-.light h4 {
-  color: var(--yellow);
-}
+// /* light */
+// .light {
+//   background-color: var(--lightest-grey);
+//   color: var(--almost-black);
+// }
+// /* body is a parent element how do i target this?? */
+// .light,
+// body {
+//   background-color: var(--lightest-grey);
+//   color: var(--almost-black);
+// }
 
-.light p {
-  color: var(--almost-black);
-}
+// .light h1 {
+//   font-size: 4rem;
+//   color: var(--blue);
+// }
 
-.light header a:hover {
-  color: var(--almost-black);
-}
+// .light h2 {
+//   color: var(--green);
+// }
 
-.light header {
-  border-bottom: 1px solid var(--light-grey);
-  background-color: var(--lightest-grey);
-}
+// .light h4 {
+//   color: var(--yellow);
+// }
 
-.light footer {
-  border-top: 1px solid var(--light-grey);
-  background-color: var(--lightest-grey);
-}
+// .light p {
+//   color: var(--almost-black);
+// }
 
-.light header button:hover {
-  color: var(--almost-black);
-}
+// .light header a:hover {
+//   color: var(--almost-black);
+// }
 
-.light footer a img {
-  filter: invert(90%);
-}
+// .light header {
+//   border-bottom: 1px solid var(--light-grey);
+//   background-color: var(--lightest-grey);
+// }
 
-.light a .underline {
-  position: relative;
-  text-decoration: none;
-}
-.light a .underline::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  border-radius: 4px;
-  background-color: var(--blue);
-  bottom: 0;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-}
+// .light footer {
+//   border-top: 1px solid var(--light-grey);
+//   background-color: var(--lightest-grey);
+// }
 
-.light a .underline:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-}
+// .light header button:hover {
+//   color: var(--almost-black);
+// }
+
+// .light footer a img {
+//   filter: invert(90%);
+// }
+
+// .light a .underline {
+//   position: relative;
+//   text-decoration: none;
+// }
+// .light a .underline::before {
+//   content: '';
+//   position: absolute;
+//   width: 100%;
+//   height: 4px;
+//   border-radius: 4px;
+//   background-color: var(--blue);
+//   bottom: 0;
+//   left: 0;
+//   transform-origin: right;
+//   transform: scaleX(0);
+//   transition: transform 0.3s ease-in-out;
+// }
+
+// .light a .underline:hover::before {
+//   transform-origin: left;
+//   transform: scaleX(1);
+// }
 

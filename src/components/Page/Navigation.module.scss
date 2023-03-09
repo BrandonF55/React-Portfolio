@@ -1,6 +1,10 @@
-.Navigation{
+.Navigation {
 
-  a{
+  margin-top: 0;
+  padding: 0;
+
+//--------------
+  a {
     color: var(--black);
     text-decoration: none;
     font-weight: none;
@@ -8,10 +12,9 @@
     padding: 0 10px 0 10px;
     font-family: 'Major Mono Display', monospace;
   }
-  a:hover{
-    color:#2C5F2D;
+
+  a:hover {
+    color: #2C5F2D;
   }
 
-  margin-top: 0;
-  padding: 0;
 }

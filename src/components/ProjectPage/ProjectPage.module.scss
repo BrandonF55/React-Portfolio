@@ -2,8 +2,11 @@
   // padding-top: 25%;
   text-decoration: none;
   font-family: 'Lora', serif;
- 
 
+
+
+
+//--------------------------
 
   .ProjectList {
     padding-top: px;
@@ -11,12 +14,9 @@
     justify-content: center;
     flex-direction: column;
     font-size: 50px;
-    
-  
+
+
   }
-
-
-  
 
   .ProjectList a {
     padding-top: 35px;
@@ -32,12 +32,13 @@
   }
 
   .ProjectList a:hover {
-    transform: scale(1.2);  //animation for projects
-  
-    
-   
+    transform: scale(1.2); //animation for projects
+
+
   }
 
+
+//----------------------
 
 
   .arrowImage {
@@ -77,11 +78,12 @@
   }
 
 }
+
 //----------------------------------Projects Navigation ^^
 // below is all the stuff in each project
 .ProjectsContainer {
   /* set a maximum height for the container */
-                       // i had overflow-y: scroll giving the page a bottom scroll
+  // i had overflow-y: scroll giving the page a bottom scroll
   margin: 18px auto 0;
   padding-bottom: 90px;
   display: flex;
@@ -90,18 +92,19 @@
   text-align: center;
   font-family: 'Lora', serif;
   width: auto;
-  
-  
-  
+
+
+
+
   // background-color: ;
-  
+
 
 }
 
-.TextContainer{
+.TextContainer {
   max-width: 800px;
   margin: 0 20px; // add new code here to make all the words fit on the project page
- 
+
 }
 
 @keyframes fadeIn {
@@ -109,6 +112,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -124,7 +128,8 @@
 
 
 
-.IconContainer img { //animation to the images
+.IconContainer img {
+  //animation to the images
   width: 7%;
   object-fit: contain;
   mix-blend-mode: color-burn;
@@ -143,15 +148,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.ProjectLinks{
+.ProjectLinks {
   display: flex;
   flex-direction: row;
-justify-content: center;
+  justify-content: center;
   align-items: center;
   // margin-left: 17px;
   // margin: 10px;
@@ -214,41 +220,3 @@ li {
   animation: spin 10s linear infinite;
 }
 
-// @keyframes spin {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }
-
-// @keyframes typewriter {
-//   from {
-//     width: 0;
-//   }
-//   to {
-//     width: 100%;
-//   }
-// }
-
-// /* Styling for TextContainer */
-// .TextContainer {
-//   // overflow: hidden; /* Ensures that the text is hidden until the animation starts */
-//   border-right: 0.15em solid rgb(8, 133, 20); /* Creates a cursor effect */
-//   // white-space: nowrap; /* Prevents line breaks in the text */
-//   // letter-spacing: 0.15em; /* Increases space between characters for better visibility */
-//   animation: typewriter 4s steps(30) 1s 1 normal both; /* Sets the animation properties */
-// }
-
-// /* Styling for headings */
-// h3 {
-//   // font-size: 1.5rem;
-//   // margin-bottom: 0.5rem;
-//   // text-decoration: underline;
-// }
-
-// /* Styling for paragraphs */
-// // em {
-// //   font-style: italic;
-// // }

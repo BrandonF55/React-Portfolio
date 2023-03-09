@@ -6,14 +6,21 @@
   padding: 13px;
   font-family: 'Lora', serif;
   padding-bottom: 50px;
-  padding-top: 24px; /* Add this line */
-  box-sizing: border-box; /* Add this line to include padding in the total height */
- 
+  padding-top: 24px;
+  /* Add this line */
+  box-sizing: border-box;
+  /* Add this line to include padding in the total height */
 
 
-  hr{
+  hr {
     width: 100vw;
   }
+
+
+  h1 {
+    text-align: center;
+  }
+
 
 
   .ContactContainer {
@@ -25,14 +32,10 @@
     max-width: 800px;
     width: 100%;
     margin-top: 50px; //add this line also to so everything is position on the page when the page is  fully extended .
-    
+
   }
 
-
-
-  h1 {
-    text-align: center;
-  }
+  //--------------------
 
   .Information {
     display: flex;
@@ -59,7 +62,9 @@
     mix-blend-mode: color-burn;
   }
 
-  .LinkedIn{
+
+  //-------------------- 
+  .LinkedIn {
     z-index: 1;
   }
 
@@ -77,6 +82,8 @@
     transform: rotate(10deg);
   }
 
+
+  //-----------------------------Animation for Contact page
   .typing {
     overflow: hidden;
     white-space: nowrap;
@@ -89,18 +96,21 @@
     from {
       width: 0;
     }
+
     to {
       width: 100%;
     }
   }
 
   @keyframes blink-caret {
+
     from,
     to {
       border-color: transparent;
     }
+
     50% {
-      border-color:  #2C5F2D;
+      border-color: #2C5F2D;
     }
   }
 }

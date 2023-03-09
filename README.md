@@ -20,7 +20,7 @@ My portfolio includes a homepage that introduces you and your work, as well as s
 
 The design of my portfolio should is clean, modern, and visually appealing to attract potential employers or clients. I use various tools, such as CSS, to style my portfolio and make it unique.
 
-## Library's used In The Project.
+## Library's used In This Project.
 
 * _Animation.Css_
 * _React-Particles-JS_

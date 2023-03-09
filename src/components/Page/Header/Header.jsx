@@ -4,14 +4,12 @@ import Navigation from '../Navigation'
 import ThemeButton from "./ThemeButton";
 
 
-function Header(){
+function Header() {
   return (
     <header className={styles.Header}>
-      <Navigation/>
+      <Navigation />
       {/* <ThemeButton/>        */}
-
-      {/* added this to make the button appear */}
     </header>
   );
-} 
+}
 export default Header;
