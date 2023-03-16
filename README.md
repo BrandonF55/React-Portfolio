@@ -4,6 +4,8 @@
 
 ### Preview Of Website
 
+* _Link to live site: https://darling-cendol-0afede.netlify.app_
+
 <img width="1907" alt="Screenshot 2023-03-09 at 11 55 37 AM" src="https://user-images.githubusercontent.com/113402256/224142782-f2a1c8b4-fc3d-4cf2-95b2-a647333aea0e.png">
 
 
